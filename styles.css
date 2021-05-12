@@ -48,6 +48,10 @@ a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  /* size: 50px; */
+}
+i {
+  font-size: 30px;
 }
 h1.aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
