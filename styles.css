@@ -64,7 +64,9 @@ h1.aboutme {
   background-color: #8e793e;
   padding: 15px;
   color: antiquewhite;
-  text-decoration: 5px solid underline;
+  /* text-decoration: 5px solid underline; */
+  border-right: 7px solid;
+  border-bottom: 7px solid;
   /* font-style: italic; */
   margin: 20px;
   margin-bottom: 30px;
@@ -89,6 +91,7 @@ p.about1 {
     rgba(229, 220, 197, 1) 100%
   ); */
   word-spacing: 5px;
+  letter-spacing: 1px;
   padding: 20px;
   margin: 20px;
   margin-bottom: 30px;
@@ -109,7 +112,9 @@ h2.skills {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 2.5rem;
-  text-decoration: 5px solid underline;
+  /* text-decoration: 5px solid underline; */
+  border-right: 7px solid;
+  border-bottom: 7px solid;
   padding: 15px;
   /* background: #2d2d2a; */
   background-color: #8e793e;
@@ -185,7 +190,9 @@ h2.education {
   /* background: #2d2d2a; */
   background-color: #8e793e;
   padding: 15px;
-  text-decoration: 5px solid underline;
+  /* text-decoration: 5px solid underline; */
+  border-right: 7px solid;
+  border-bottom: 7px solid;
   /* font-style: italic; */
   color: antiquewhite;
   margin: 20px;
@@ -233,7 +240,9 @@ h2.certificates {
   background: #8e793e;
   padding: 15px;
   /* letter-spacing: 2px; */
-  text-decoration: 5px solid underline;
+  /* text-decoration: 5px solid underline; */
+  border-right: 7px solid;
+  border-bottom: 7px solid;
   /* font-style: italic; */
   color: antiquewhite;
   margin: 20px;
