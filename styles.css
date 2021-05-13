@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: lightgray;
+}
 
 div.header {
   margin: 0;
@@ -21,6 +24,7 @@ h2.portfolio {
   text-align: center;
 }
 nav {
+  /* background: #2d2d2a; */
   background: #4c4c47;
   padding: 15px;
   width: 100%;
@@ -56,31 +60,45 @@ i {
 h1.aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background: #2d2d2a;
+  /* background: #2d2d2a; */
+  background-color: #8e793e;
   padding: 15px;
   color: antiquewhite;
   text-decoration: 5px solid underline;
-  font-style: italic;
-  /* margin: 15px;
+  /* font-style: italic; */
+  margin: 20px;
+  margin-bottom: 30px;
   width: max-content;
-  transform: skewX(-20deg); */
+  transform: skewX(-10deg);
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 10px -4px 17px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -4px 17px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -4px 17px 6px rgba(0, 0, 0, 0.75); */
 }
 p.about1 {
   font-size: 1.875rem;
   display: block;
-  /* color: antiquewhite; */
-  background: rgb(45, 45, 42);
-  background: linear-gradient(
+  color: antiquewhite;
+  background: #2d2d2a;
+  /* background: linear-gradient(
     90deg,
     rgba(45, 45, 42, 1) 0%,
     rgba(76, 76, 71, 1) 35%,
     rgba(229, 220, 197, 1) 100%
-  );
+  ); */
   word-spacing: 5px;
-  padding: 15px;
-  font-weight: bolder;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 30px;
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  /* font-weight: bolder; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* border-radius: 5%; */
 }
 div.skills {
   /* background: linear-gradient(to left, #00467f, #a5cc82); */
@@ -90,28 +108,43 @@ div.skills {
 h2.skills {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-style: italic;
   font-size: 2.5rem;
   text-decoration: 5px solid underline;
   padding: 15px;
-  background: #2d2d2a;
+  /* background: #2d2d2a; */
+  background-color: #8e793e;
   /* border: 5px solid black; */
+  /* font-style: italic; */
+  margin: 20px;
+  margin-bottom: 30px;
+  width: max-content;
+  transform: skewX(-10deg);
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
 }
 ul.skills1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding: 15px;
-  padding-left: 40px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   list-style: disc;
   font-size: 1.875rem;
-  background: rgb(45, 45, 42);
+  /* background: rgb(45, 45, 42);
   background: linear-gradient(
     3deg,
     rgba(45, 45, 42, 1) 0%,
     rgba(76, 76, 71, 1) 35%,
     rgba(229, 220, 197, 1) 100%
-  );
+  ); */
+  background-color: #2d2d2a;
+  padding: 20px;
+  padding-left: 40px;
+  margin: 20px;
+  /* margin-bottom: 30px; */
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  /* border-radius: 5%; */
 }
 ul.skills1 li {
   padding-bottom: 20px;
@@ -123,6 +156,8 @@ div.languages {
   background-attachment: fixed;
   background-size: cover;
   background-size: contain;
+  margin: 20px;
+  margin-bottom: 30px;
 }
 h2.languages {
   font-family: "Source Code Pro", monospace;
@@ -140,36 +175,41 @@ ul.cores {
 ul.cores li {
   padding-bottom: 20px;
 }
-div.education {
-  /* background: #bbd2c5;
-  background: -webkit-linear-gradient(to left, #292e49, #536976, #bbd2c5);
-  background: linear-gradient(to left, #292e49, #536976, #bbd2c5); */
-  background: rgb(45, 45, 42);
-  background: radial-gradient(
-    circle,
-    rgba(45, 45, 42, 1) 0%,
-    rgba(76, 76, 71, 1) 35%,
-    rgba(229, 220, 197, 1) 100%
-  );
-}
+
 h2.education {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 2.5rem;
   /* letter-spacing: 2px; */
   padding-bottom: 10px;
-  background: #2d2d2a;
+  /* background: #2d2d2a; */
+  background-color: #8e793e;
   padding: 15px;
   text-decoration: 5px solid underline;
-  font-style: italic;
+  /* font-style: italic; */
   color: antiquewhite;
+  margin: 20px;
+  margin-bottom: 30px;
+  width: max-content;
+  transform: skewX(-10deg);
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
 }
 p.course {
-  padding: 15px;
+  padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.875rem;
   font-weight: 700;
+  background: #2d2d2a;
+  color: antiquewhite;
+  margin: 20px;
+  margin-bottom: 30px;
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  /* border-radius: 5%; */
 }
 span.manipal {
   font-size: 1.25rem;
@@ -181,44 +221,53 @@ span.years {
   /* font-weight: lighter; */
   padding: 15px;
 }
-div.certificates {
-  /* padding: 10px; */
-  background: rgb(45, 45, 42);
-  background: linear-gradient(
-    175deg,
-    rgba(45, 45, 42, 1) 0%,
-    rgba(76, 76, 71, 1) 35%,
-    rgba(229, 220, 197, 1) 100%
-  );
-}
+/* div.certificates {
+  
+  background-color: #2d2d2a;
+  color: antiquewhite;
+} */
 h2.certificates {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 2.5rem;
-  background: #2d2d2a;
+  background: #8e793e;
   padding: 15px;
   /* letter-spacing: 2px; */
   text-decoration: 5px solid underline;
-  font-style: italic;
+  /* font-style: italic; */
   color: antiquewhite;
+  margin: 20px;
+  margin-bottom: 30px;
+  width: max-content;
+  transform: skewX(-10deg);
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
 }
 ul.cert {
   padding: 15px;
   padding-left: 40px;
   list-style: disc;
   font-size: 1.875rem;
-  /* color: antiquewhite; */
-  font-weight: bolder;
+  color: antiquewhite;
+  background: #2d2d2a;
+  /* font-weight: bolder; */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+  margin-bottom: 30px;
+  box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px -7px 10px 6px rgba(0, 0, 0, 0.75);
 }
 ul.cert li {
   padding-bottom: 20px;
 }
-h2.footer {
+footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
   background: #4c4c47;
   color: #e5dcc5;
+  font-size: 1.5rem;
 }
