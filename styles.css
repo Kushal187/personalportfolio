@@ -42,7 +42,7 @@ nav li a {
 a:hover {
   color: darkgoldenrod;
   text-decoration: underline;
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 a {
   text-decoration: none;
@@ -51,7 +51,7 @@ a {
   /* size: 50px; */
 }
 i {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 h1.aboutme {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -61,11 +61,12 @@ h1.aboutme {
   color: antiquewhite;
   text-decoration: 5px solid underline;
   font-style: italic;
-
-  /* border: 2px solid white; */
+  /* margin: 15px;
+  width: max-content;
+  transform: skewX(-20deg); */
 }
 p.about1 {
-  font-size: 30px;
+  font-size: 1.875rem;
   display: block;
   /* color: antiquewhite; */
   background: rgb(45, 45, 42);
@@ -90,7 +91,7 @@ h2.skills {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-style: italic;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-decoration: 5px solid underline;
   padding: 15px;
   background: #2d2d2a;
@@ -103,7 +104,7 @@ ul.skills1 {
   padding-left: 40px;
   font-weight: bolder;
   list-style: disc;
-  font-size: 30px;
+  font-size: 1.875rem;
   background: rgb(45, 45, 42);
   background: linear-gradient(
     3deg,
@@ -125,7 +126,7 @@ div.languages {
 }
 h2.languages {
   font-family: "Source Code Pro", monospace;
-  font-size: 40px;
+  font-size: 2.5rem;
   padding-bottom: 10px;
   text-decoration: 5px solid underline;
   font-style: italic;
@@ -134,7 +135,7 @@ ul.cores {
   font-family: "Source Code Pro", monospace;
   padding-left: 30px;
   list-style: disc;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 ul.cores li {
   padding-bottom: 20px;
@@ -154,7 +155,7 @@ div.education {
 h2.education {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   /* letter-spacing: 2px; */
   padding-bottom: 10px;
   background: #2d2d2a;
@@ -167,16 +168,16 @@ p.course {
   padding: 15px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
 }
 span.manipal {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: initial;
   padding: 15px;
 }
 span.years {
-  font-size: 20px;
+  font-size: 1.25rem;
   /* font-weight: lighter; */
   padding: 15px;
 }
@@ -193,7 +194,7 @@ div.certificates {
 h2.certificates {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   background: #2d2d2a;
   padding: 15px;
   /* letter-spacing: 2px; */
@@ -205,7 +206,7 @@ ul.cert {
   padding: 15px;
   padding-left: 40px;
   list-style: disc;
-  font-size: 30px;
+  font-size: 1.875rem;
   /* color: antiquewhite; */
   font-weight: bolder;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
